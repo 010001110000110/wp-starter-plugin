@@ -1,0 +1,24 @@
+{
+  "name": "gcs/wp-plugin-starter",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "description": "WordPress starter plugin",
+  "authors": [
+    {
+      "name": "Gregoire Ciles",
+      "email": "bonjour@gregoireciles.fr",
+      "homepage": "https://github.com/GregoireCiles"
+    }
+  ],
+  "keywords": [
+    "wordpress"
+  ],
+  "autoload": {
+    "psr-4": {
+      "PluginNamespace\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.0"
+  }
+}
